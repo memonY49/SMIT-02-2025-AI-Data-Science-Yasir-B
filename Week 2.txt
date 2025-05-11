@@ -1,0 +1,75 @@
+Naming Roles:
+- Name may start with alphabets.
+- Name may not contains spaces in between.
+- You can use _ symbols.
+- Names may not be reserved words
+
+1. Operators 
+2. Operands
+
+Operators:
+ Arithmetic Operators: returns some values(int or float)
+  1. Addition (+)
+  2. Subtraction (-)
+  3. Multiplication (*)
+  4. Division (/)
+  5. Modulus (%)
+
+
+Assignment Operators:
+ 1. Assignment (=)
+
+ Comparison (Relational) Operators: (returns BOOLEAN)
+  1. Less Than (<)
+  2. Greater Than (>)
+  3. Equals (==)
+  4. Not Equals (!=)
+  5. Less Than Equal To (<=)
+  6. Greater Than Equals To (>=)
+
+ Task (" Ahmed is older than Ali and Rizwan where Rizwan is younger than Taha and Fareed")
+		
+
+Logical Operators:
+  1. or
+  2. and
+  3. not
+
+Membership Operators:
+ 1. in
+ 2. not in 
+
+
+Identity Operators
+ 1. is
+ 2. is not
+
+Data Conversion:
+	Syntax:
+		data-to-convert(data-to-be-converted)
+   
+	Implicit:
+		"Converting Smaller data types into bigger and there is no data loss"
+	Explicit: 
+		"Converting Bigger data types into smaller data types and there is data loss"
+
+Print Function:
+	sep: uses when there is more than one strings in print function
+	end: used when you need to end the line of code with some other character
+	
+Conditional Statements: 
+if condition:
+      Body of If (It only execute if the condition is True)
+else:
+      Body of else (It only execute if the condition is False)
+
+Task1: create a variable named as 'number' use if and else conditional statements to identify the number is even or odd (hint: number%2 == 0)
+
+
+
+
+
+
+
+
+
