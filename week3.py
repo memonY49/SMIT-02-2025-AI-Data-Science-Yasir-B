@@ -100,18 +100,65 @@ else:
     print("invailed amount")
 '''
 
-print({2,5,6,8,9,'f','c',True,False})
+MyList = {"ag","ac","a","ab"}
+#MyList.append(10)
+#MyList.insert(2,10)
+#MyList.clear()
+#MyList1 = MyList.copy()
+#MyList.extend([1,4,6])
+#MyList.pop()
+#print(MyList.count(6))
+#print(MyList1)
+#MyList.pop()
+#MyList.pop()
+#MyList.pop()
+#MyList.remove(4)
+#MyList.reverse()
+#MyList.sort()
+print(MyList)
+
+#Task: create Multi List for 5 companys containing 5 names of cars,
+#show a menu to user to select Company names and it shows all the available cars
+#of that selected company
 
 
 
 
 
+carData = [[["Corolla",2012,1500000,"GLI"],
+            ["Corolla",2010,1500000,"GLI"],
+            ["Corolla",2011,1500000,"GLI"]],
+           [["Aulto",2008,100000,"VXR"],
+            ["Aulto",2008,100000,"VXR"],
+            ["Aulto",2008,100000,"VXR"]]]
+
+data = [[["Corolla",2012,1500000,"GLI"],
+         ["Corolla",2012,1500000,"GLI"],
+         ["Corolla",2012,1500000,"GLI"]],
+        [["Aulto",2008,100000,"VXR"],
+         ["Aulto",2008,100000,"VXR"],
+         ["Aulto",2008,100000,"VXR"]]]
 
 
 
+print("1.Toyota")
+print("2.Suzuki")
 
-
-
+userin = int(input())
+if userin == 1:
+    print("1.",data[0][0][0])
+    print("2.",data[0][1][0])
+    print("3.",data[0][1][0])
+    userin = int(input())
+    if userin == 1:
+        print("Name:",data[0][0][0])
+        print("Year:",data[0][0][1])
+        print("Price:",data[0][0][2])
+elif userin == 2:
+    print("1.",data[1][0][0])
+    print("2.",data[1][1][0])
+    print("2.",data[1][1][0])
+    userin = int(input())
 
 
 
