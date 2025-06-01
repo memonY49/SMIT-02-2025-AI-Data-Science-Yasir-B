@@ -1,0 +1,35 @@
+Dictionaries: 
+	my_dict = {key:value}
+
+Functions of dict: 
+	key(): 
+	value()
+	items()
+
+len function:
+	len(sequence)
+
+
+Loops: 
+  FOR loop:
+	for counter sequence:
+		body of for loop
+  WHILE loop:
+	Initialize counter
+	while condition:
+		body of while loop
+		increments/dec
+	
+	
+
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+	
