@@ -70,12 +70,51 @@ for i in range(0,len(userdetails)):
 else:
     print("Email not found")
             
-    """
+
 
 my_list = {"A":1,"B":2,"C":3,"D":4}
 
 for key, value in my_list.items():
     print(key, value)
+"""
+#Task 5:
+
+data ={"Toyota":{"car1":{"Name":"car1","Year":"2000","Model":"A"},
+                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
+                  "car3":{"Name":"car3","Year":"2012","Model":"C"}},
+        "Suziki":{"car1":{"Name":"car1","Year":"2000","Model":"A"},
+                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
+                  "car3":{"Name":"car3","Year":"2012","Model":"C"}},
+        "Kia":  {"car1":{"Name":"car1","Year":"2000","Model":"A"},
+                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
+                  "car3":{"Name":"car3","Year":"2012","Model":"C"}}}
+
+
+for index in range(0,len(data.keys())):
+    print(index+1,list(data.keys())[index])
+
+company_select = input("Select your company")
+
+for index in range(len(data[company_select])):
+    print(index+1,list(data[company_select].keys())[index])
+
+car_select = input("Select your company")
+
+for key, value in data[company_select][car_select].items():
+    print(key+": ",value)
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 

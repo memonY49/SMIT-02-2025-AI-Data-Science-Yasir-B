@@ -19,8 +19,16 @@ Loops:
 	while condition:
 		body of while loop
 		increments/dec
-	
-	
+Break:
+	break keyword is used to stop iterations/loop
+
+Else with LOOP:
+
+	for :
+		body of for
+        else:
+		body of else
+
 
 
     *

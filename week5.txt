@@ -1,0 +1,11 @@
+Nested Loop:
+	-loop inside a loop is known as nested loop
+	for counter in range(0,10):
+		- body outer loop
+		for counter2 in range(0,10):
+			-body of inner loop
+error handling:
+	Try:
+		- Try clause is used when there is a chance of an user sided logical error.
+	except:
+		- Except clause is used to handle the above error and provide a response for the user about the error.
