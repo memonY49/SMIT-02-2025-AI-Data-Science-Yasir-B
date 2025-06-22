@@ -1,0 +1,7 @@
+Functions: 
+	
+	Syntax: 
+		def nameOfFunction(parameters1,parameters2,parameters3,...):
+			#body of function
+
+		nameOfFunction()

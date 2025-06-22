@@ -79,31 +79,33 @@ for key, value in my_list.items():
 """
 #Task 5:
 
-data ={"Toyota":{"car1":{"Name":"car1","Year":"2000","Model":"A"},
-                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
-                  "car3":{"Name":"car3","Year":"2012","Model":"C"}},
-        "Suziki":{"car1":{"Name":"car1","Year":"2000","Model":"A"},
-                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
-                  "car3":{"Name":"car3","Year":"2012","Model":"C"}},
-        "Kia":  {"car1":{"Name":"car1","Year":"2000","Model":"A"},
-                  "car2":{"Name":"car2","Year":"2010","Model":"B"},
-                  "car3":{"Name":"car3","Year":"2012","Model":"C"}}}
+data ={"Cars":{"Toyota":{"Corolla1":{"Name":"Corolla1","Year":2008,"Model":"XLI","Price":1200000},
+                 "Corolla2":{"Name":"Corolla2","Year":2008,"Model":"XLI","Price":1200000},
+                 "Corolla3":{"Name":"Corolla3","Year":2008,"Model":"XLI","Price":1200000}},
+               "Suzuki":{"Alto1":{"Name":"Alto1","Year":2008,"Model":"VXR","Price":1200000},
+                 "Alto2":{"Name":"Alto2","Year":2008,"Model":"VXR","Price":1200000},
+                 "Alto3":{"Name":"Alto3","Year":2008,"Model":"VXR","Price":1200000}}},
+       "Bikes":{"Toyota":{"Corolla1":{"Name":"Corolla1","Year":2008,"Model":"XLI","Price":1200000},
+                 "Corolla2":{"Name":"Corolla2","Year":2008,"Model":"XLI","Price":1200000},
+                 "Corolla3":{"Name":"Corolla3","Year":2008,"Model":"XLI","Price":1200000}},
+                "Suzuki":{"Alto1":{"Name":"Alto1","Year":2008,"Model":"VXR","Price":1200000},
+                 "Alto2":{"Name":"Alto2","Year":2008,"Model":"VXR","Price":1200000},
+                 "Alto3":{"Name":"Alto3","Year":2008,"Model":"VXR","Price":1200000}}}}
 
+for index, comp in enumerate(data.keys()):
+    print(index+1, comp)
+usercomp = input("Please Enter your Company Name: ").capitalize()
+if usercomp in data.keys():
+    for index, car in enumerate(data[usercomp].values()):
+        print(index+1, car["Name"])
+    usercar = input("Please Enter your Car Name: ").capitalize()
+    if usercar in data[usercomp].keys():
+        car = data[usercomp][usercar]
+        print("Name:",car["Name"])
+        print("Year:",car["Year"])
+        print("Model:",car["Model"])
+        print("Price:",car["Price"])
 
-for index in range(0,len(data.keys())):
-    print(index+1,list(data.keys())[index])
-
-company_select = input("Select your company")
-
-for index in range(len(data[company_select])):
-    print(index+1,list(data[company_select].keys())[index])
-
-car_select = input("Select your company")
-
-for key, value in data[company_select][car_select].items():
-    print(key+": ",value)
-
-    
 
 
 
