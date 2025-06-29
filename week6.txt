@@ -4,4 +4,56 @@ Functions:
 		def nameOfFunction(parameters1,parameters2,parameters3,...):
 			#body of function
 
-		nameOfFunction()
+		function call:
+			nameOfFunction()
+Parameters: 
+	
+	Opetional: Those who has a default value.
+	Required: Those parameters that does not have default values.
+
+
+escape characters: 
+	\" = "
+	\' = '
+	\n = new line + cursor at position start
+	\t = one tab space
+	\b = backspace
+	\r = carriage return
+
+String Functions:
+	capitalize(): "Make first Alphabet Capital" 
+	lower(): "It converts all characters into lower"
+	upper(): "It converts all characters into upper"
+	count(element/member):"Counts the duplication of an alphabet"
+	endswith(String): "It checks if the value string is ending with given String"
+	find(element/member) "Finds the elements in any way if it is available or not"
+	format()
+	index(element/member) "Gets the location of an element same as find but it shows an error if the element is not available" 
+	isalnum() "It Checks the string if it is alpha numeric or not"
+	isalpha() "It Checks the string if it is aliphatic or not"
+	isdecimal() "It Checks the string if it is decimal or of base 10 or not"
+	islower() "It Checks the string if it is in lower case or not"
+	isupper() "It Checks the string if it is in upper case or not"
+	isnumeric() "It Checks the string if it is numeric or not"
+	join() "It joins tow strings like same as + operator do"
+	split(string by which to split) "It splits or breaks the string from the given string 
+	lstrip(): "It removes all extra spaces and line breaks in a string from its left side only"
+	rstrip(): "It removes all extra spaces and line breaks in a string from its Right side only"
+	replace(replacing string, replacing with)
+	strip() "It removes all extra spaces and line breaks in a string"
+	swapcase()
+	title()
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
