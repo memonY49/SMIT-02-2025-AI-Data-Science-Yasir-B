@@ -1,0 +1,20 @@
+Math Module:
+ Math Functions
+  - math.pow()
+  - math.log()
+  - math.log10()
+  - math.prod()
+  - math.sin()
+  - math.cos()
+  - math.tan()
+  - math.exp()
+  - math.factorial()
+  - math.isnan()
+  - math.sqrt()
+  - math.isqrt()
+ Math Constant:
+  - math.e
+  - math.pi
+  - math.nan
+  
+
