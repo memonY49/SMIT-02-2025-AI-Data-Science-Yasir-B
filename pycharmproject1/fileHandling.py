@@ -22,12 +22,18 @@ myfile = open("data.txt","r")
 
 # myfile.write("Yasir10,Nawaz,43123-334242344-3,0304-4453453534,adhbbjgvgvsdhbsbdhbvjvjhbd,abc@gmail.com,abc123")
 # myfile.seek(0)
-data = [line.replace("\n","").split(",") for line in myfile.readlines()]
+# data = [line.replace("\n","").split(",") for line in myfile.readlines()]
+#
+# # for line in myfile.readlines():
+# #     data.append(line.replace("\n","").split(","))
+#
+#
+# print(data)
+#
+# myfile.close()
 
-# for line in myfile.readlines():
-#     data.append(line.replace("\n","").split(","))
 
 
-print(data)
 
-myfile.close()
+
+
