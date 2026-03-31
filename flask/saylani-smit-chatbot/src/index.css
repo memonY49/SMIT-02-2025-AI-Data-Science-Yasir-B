@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  .prose h1 { @apply text-xl font-bold mb-4; }
+  .prose h2 { @apply text-lg font-bold mb-3; }
+  .prose h3 { @apply text-base font-bold mb-2; }
+  .prose p { @apply mb-3 last:mb-0; }
+  .prose ul { @apply list-disc ml-5 mb-3; }
+  .prose ol { @apply list-decimal ml-5 mb-3; }
+  .prose li { @apply mb-1; }
+  .prose strong { @apply font-bold; }
+  .prose a { @apply text-green-600 underline hover:text-green-700; }
+  .prose code { @apply bg-gray-100 px-1 rounded font-mono text-sm; }
+}

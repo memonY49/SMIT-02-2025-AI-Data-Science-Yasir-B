@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flask OpenCV Capture</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 700px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            border: 2px solid #222;
+            border-radius: 6px;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 12px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            font-size: 16px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056cc;
+        }
+
+        ul {
+            color: green;
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>OpenCV Capture</h2>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+
+        <form id="capture-form" action="/capture" method="POST">
+            <label>Name:</label>
+            <input type="text" name="person_name" placeholder="Enter name">
+
+            <label>No. of Images:</label>
+            <input type="number" name="num_images" min="1" value="10" required>
+
+            <button type="submit">Start Capture</button>
+        </form>
+        {% if progress.total > 0 %}
+                <h3>Capturing {{ progress.name }}: {{ progress.current }}/{{ progress.total }}</h3>
+                {% endif %}
+        <hr>
+
+        <h3>Live Camera</h3>
+        <img src="{{ url_for('video_feed') }}" alt="Camera Stream">
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
