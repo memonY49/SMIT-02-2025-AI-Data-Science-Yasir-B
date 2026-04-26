@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="chat-app">
+    <header class="chat-header">
+        <h2>AI Assistant</h2>
+        <span>Online</span>
+    </header>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="chat-input">
+        <input 
+            type="text" 
+            id="user-input" 
+            placeholder="Type your message..."
+            autocomplete="off"
+        />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

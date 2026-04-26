@@ -1,0 +1,5 @@
+py -m venv venv
+venv/Scripts/activate
+Set-ExecutionPolicy Unrestricted -Scope Process
+Set-ExecutionPolicy Default -Scope Process
+pip install -r requirements.txt
