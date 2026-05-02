@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+    <h2>YTech Internationals</h2>
+</nav>
+
+<!-- HERO + CHATBOT -->
+<section class="hero">
+
+    <h1>AI Portfolio</h1>
+    <p>Ask anything about my projects & AI work</p>
+
+    <!-- CHATBOX -->
+    <div class="chat-container">
+
+        <div id="chat" class="chat-box"></div>
+
+        <div class="chat-input">
+            <input id="msg" placeholder="Ask me anything...">
+            <button onclick="send()">➤</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="projects">
+
+    <h2>AI Tools</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Sentiment Analysis</h3>
+            <textarea id="sentText"></textarea>
+            <button onclick="sentiment()">Analyze</button>
+            <p id="sentOut"></p>
+        </div>
+
+        <div class="card">
+            <h3>Summarizer</h3>
+            <textarea id="sumText"></textarea>
+            <button onclick="summarize()">Summarize</button>
+            <p id="sumOut"></p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

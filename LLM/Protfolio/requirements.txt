@@ -1,0 +1,10 @@
+flask
+transformers
+langchain
+langchain-community
+langchain-classic
+langchain-openai
+langchain-huggingface
+sentence-transformers
+chromadb
+python-dotenv

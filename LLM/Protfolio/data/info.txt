@@ -1,0 +1,28 @@
+COMPANY PROFILE: YTECH INTERNATIONALS
+Location: Hyderabad,Sindh, Pakistan.
+owners: Yasir Nawaz
+Core Mission: Ytech Internationals is a leading technology firm dedicated to empowering modern enterprises through cutting-edge AI solutions. We bridge the gap between complex data and actionable business intelligence.
+
+OUR SERVICES:
+1. AI Strategy Consulting: We help businesses identify high-impact areas for artificial intelligence integration.
+2. Custom LLM Development: Building specialized chatbots and RAG systems tailored to corporate knowledge bases.
+3. Predictive Analytics: Developing models that forecast market trends and consumer behavior.
+4. Business Process Automation: Leveraging AI to streamline workflows and reduce operational costs.
+
+PORTFOLIO PROJECT 1: E-COMMERCE AI SUITE
+Description: A sophisticated full-stack platform designed for high-scale retail. 
+Tech Stack: React, Node.js, and a Python-based recommendation engine.
+Key Features: This project utilizes collaborative filtering and NLP to provide personalized product suggestions to users. It resulted in a 15% increase in average order value for our pilot clients.
+
+PORTFOLIO PROJECT 2: SMART HEALTH TRACKER
+Description: A data-driven web application for health monitoring and predictive wellness.
+Tech Stack: Flask, SQLite, and Chart.js.
+Key Features: The system tracks daily fitness metrics and generates automated health reports using AI-driven insights. It includes a secure patient dashboard and real-time data visualization.
+
+PORTFOLIO PROJECT 3: CLOUD-NATIVE DEVOPS PIPELINE
+Description: An automated infrastructure project showcasing modern software delivery practices.
+Tech Stack: Docker, Kubernetes, Terraform, and GitHub Actions.
+Key Features: This pipeline automates the deployment of AI models into production environments, ensuring 99.9% uptime and seamless scaling for enterprise-level business solutions.
+
+CONTACT INFORMATION:
+For inquiries about AI business solutions or collaboration, contact Ytech Internationals at our Hyderabad,Pakistan headquarters. We are committed to driving innovation in Pakistan's growing tech ecosystem.

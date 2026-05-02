@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+    <h2>PDF Chatbot</h2>
+
+    <input type="file" id="pdfFile">
+    <button onclick="uploadPDF()">Upload</button>
+
+    <div id="chat" class="chat-box"></div>
+
+    <div class="input-area">
+        <input id="msg" placeholder="Ask something...">
+        <button onclick="send()">Send</button>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
